@@ -24,5 +24,4 @@ def partition(A):
             left += 1
 #             print 'left, end of loop', left
     pivot, A[left] = A[left], pivot
-#     print 'pivot, end of recursive call', pivot
     return left
